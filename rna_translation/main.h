@@ -9,8 +9,8 @@
 std::map<std::string, std::string> genetic_code {
     {"UUU", "FEN"}, {"UUC", "FEN"}, {"UUA", "LEU"}, {"UUG", "LEU"},
     {"UCU", "SER"}, {"UCC", "SER"}, {"UCA", "SER"}, {"UCG", "SER"},
-    {"UAU", "TIR"}, {"UAC", "TIR"}, {"UAC", "STOP"}, {"UAG", "STOP"},
-    {"UGU", "CIS"}, {"UGC", "CIS"}, {"UGC", "STOP"}, {"UGG", "TRI"},
+    {"UAU", "TIR"}, {"UAC", "TIR"}, {"UAA", "STOP"}, {"UAG", "STOP"},
+    {"UGU", "CIS"}, {"UGC", "CIS"}, {"UGA", "STOP"}, {"UGG", "TRI"},
 
     {"CUU", "LEU"}, {"CUC", "LEU"}, {"CUA", "LEU"}, {"CUG", "LEU"},
     {"CCU", "PRO"}, {"CCC", "PRO"}, {"CCA", "PRO"}, {"CCG", "PRO"},
